@@ -1,4 +1,4 @@
-//Criar um array com 10 numeros e mostrar no array
+//Criar um array com 10 numeros e mostrar no final
 let prompt = require(`prompt-sync`)({ sigint: true });
 let numeros = [], num
 
