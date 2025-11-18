@@ -1,3 +1,4 @@
+//Exercicio de digitar emails
 let prompt = require(`prompt-sync`)({ sigint: true });
 let email = [], dig
 for (let i = 0; i < 5; i++) {
