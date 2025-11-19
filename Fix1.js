@@ -4,5 +4,5 @@ ListaCompras.push("Arroz", "Feijão", "Açucar", "Alcatra", "Maminha", "Fraudinh
 console.log(ListaCompras)
 
 ListaCompras.forEach((Lista, index) => {
-    console.log(`${index + 1}. ${Lista}`);
+    console.log(`${index + 1}- ${Lista}`);
 });
