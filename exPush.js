@@ -6,4 +6,4 @@ console.log(jogos);
 
 //Adicionar vários de uma vez
 jogos.push("GTA", "God of War");
-console.log(jogos)
+console.log(jogos);
