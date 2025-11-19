@@ -5,4 +5,4 @@ console.log(ListaCompras);
 
 ListaCompras.forEach((Lista, index) => {
     console.log(`${index + 1}- ${Lista}`);
-});
+})
