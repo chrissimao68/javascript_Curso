@@ -6,4 +6,3 @@ const usuarios = [
 console.log(usuarios);
 const resultado = usuarios.filter(u => u.cidade === "São Paulo");
 console.log(resultado);
-console.log(u.cidade)
