@@ -6,4 +6,4 @@ console.log("Removido: ", removidos);
 let removidos2 = pedidos.pop();
 console.log("Removido: ", removidos2);
 
-console.log(pedidos);
+console.table(pedidos);
