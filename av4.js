@@ -1,11 +1,14 @@
 const mensagens = [
-    "Hoje o dia está lindo",
-    "Não gostei desse trabalho",
-    "A aula foi muito divertida",
-    "Que tarefa chata"
+    { frase: "Hoje o dia está lindo" },
+    { frase: "Não gostei desse trabalho" },
+    { frase: "A aula foi muito divertida" },
+    { frase: "Que tarefa chata" }
 ];
-const proibida = ["chato", "chata", "Não gostei"];
-console.log(mensagens);
-const palavra = mensagens.filter(u => u.proibida.includes("chato", "chata", "Não gostei"));
 
-console.log(palavra);
+console.log(mensagens);
+const palavra = mensagens.filter(c => c.frase.includes("chata"));
+
+const palavra3 = mensagens.filter(c => c.frase.includes("Não gostei"));
+
+console.log(palavra, palavra3);
+console.log(palavra, palavra3);
