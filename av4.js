@@ -8,7 +8,6 @@ const mensagens = [
 console.log(mensagens);
 const palavra = mensagens.filter(c => c.frase.includes("chata"));
 
-const palavra3 = mensagens.filter(c => c.frase.includes("Não gostei"));
+const palavra2 = mensagens.filter(c => c.frase.includes("Não gostei"));
 
-console.log(palavra, palavra3);
-console.log(palavra, palavra3);
+console.log(palavra, palavra2);
